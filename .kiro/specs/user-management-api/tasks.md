@@ -24,20 +24,20 @@
   - Write repository tests using @DataJpaTest with embedded database
   - _Requirements: 2.1, 2.3, 3.4, 4.2_
 
-- [ ] 5. Create DTO classes for API contracts
-- [ ] 5.1 Implement UserCreateRequest DTO
+- [x] 5. Create DTO classes for API contracts
+- [x] 5.1 Implement UserCreateRequest DTO
   - Create DTO with name validation, optional email, and additionalFields Map
   - Add Bean Validation annotations (@NotBlank for name, @Email for email when present)
   - Write unit tests for DTO validation
   - _Requirements: 1.2, 1.3, 5.4_
 
-- [ ] 5.2 Implement UserUpdateRequest DTO
+- [x] 5.2 Implement UserUpdateRequest DTO
   - Create DTO allowing partial updates with optional name, email, and additionalFields
   - Add validation annotations and null-safe field handling
   - Write unit tests for partial update validation
   - _Requirements: 3.1, 3.2, 5.4_
 
-- [ ] 5.3 Implement UserResponse DTO
+- [x] 5.3 Implement UserResponse DTO
   - Create response DTO with all user fields including dynamic additionalFields
   - Add conversion methods between User entity and UserResponse
   - Write unit tests for entity-to-DTO conversion
