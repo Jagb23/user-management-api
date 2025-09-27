@@ -51,28 +51,28 @@
   - Write comprehensive unit tests mocking repository layer
   - _Requirements: 1.1, 1.4, 2.1, 3.1, 3.4, 4.1, 5.2, 5.4_
 
-- [ ] 7. Create REST controller with all endpoints
-- [ ] 7.1 Implement POST /api/users endpoint
+- [x] 7. Create REST controller with all endpoints
+- [x] 7.1 Implement POST /api/users endpoint
   - Create endpoint for user creation with UserCreateRequest validation
   - Return UserResponse with HTTP 201 status
   - Handle validation errors and duplicate email conflicts
   - Write controller tests using MockMvc
   - _Requirements: 1.1, 1.2, 1.3, 1.4, 1.5_
 
-- [ ] 7.2 Implement GET /api/users/{id} endpoint
+- [x] 7.2 Implement GET /api/users/{id} endpoint
   - Create endpoint for retrieving single user by ID
   - Return UserResponse with HTTP 200 or 404 for not found
   - Write controller tests for success and not found scenarios
   - _Requirements: 2.1, 2.3_
 
-- [ ] 7.3 Implement GET /api/users endpoint with pagination
+- [x] 7.3 Implement GET /api/users endpoint with pagination
   - Create endpoint for listing all users with Pageable support
   - Return Page<UserResponse> with HTTP 200 status
   - Add pagination parameters (page, size, sort)
   - Write controller tests for pagination functionality
   - _Requirements: 2.2, 2.4_
 
-- [ ] 7.4 Implement PUT /api/users/{id} endpoint
+- [x] 7.4 Implement PUT /api/users/{id} endpoint
   - Create endpoint for updating existing users
   - Handle partial updates preserving existing fields not in request
   - Return updated UserResponse with HTTP 200 or 404 for not found
@@ -80,7 +80,7 @@
   - Write controller tests for update scenarios
   - _Requirements: 3.1, 3.2, 3.3, 3.4, 3.5_
 
-- [ ] 7.5 Implement DELETE /api/users/{id} endpoint
+- [x] 7.5 Implement DELETE /api/users/{id} endpoint
   - Create endpoint for deleting users by ID
   - Return HTTP 204 for successful deletion or 404 for not found
   - Write controller tests for delete scenarios
