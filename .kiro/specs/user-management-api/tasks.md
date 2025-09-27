@@ -43,7 +43,7 @@
   - Write unit tests for entity-to-DTO conversion
   - _Requirements: 2.1, 2.2, 5.3_
 
-- [ ] 6. Implement service layer with business logic
+- [x] 6. Implement service layer with business logic
   - Create UserService class with CRUD operations
   - Implement email uniqueness validation for create and update operations
   - Add transaction management with @Transactional annotations
