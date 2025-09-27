@@ -86,7 +86,7 @@
   - Write controller tests for delete scenarios
   - _Requirements: 4.1, 4.2_
 
-- [ ] 8. Implement global exception handling
+- [x] 8. Implement global exception handling
   - Create GlobalExceptionHandler with @ControllerAdvice
   - Handle MethodArgumentNotValidException for validation errors (400)
   - Handle EntityNotFoundException for resource not found (404)
