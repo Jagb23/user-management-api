@@ -83,3 +83,6 @@ Thumbs.db
 application-local.yml
 application-dev.yml
 *.pid
+
+# SQLite
+*.db

@@ -1,0 +1,39 @@
+spring:
+  datasource:
+    url: jdbc:sqlite:/var/lib/user-management-api/users.db
+    hikari:
+      maximum-pool-size: 1
+      connection-timeout: 30000
+      idle-timeout: 600000
+      max-lifetime: 1800000
+  
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: false
+        use_sql_comments: false
+  
+server:
+  error:
+    include-message: never
+    include-binding-errors: never
+    include-stacktrace: never
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: never
+  
+logging:
+  level:
+    root: WARN
+    com.example.usermanagement: INFO
+  file:
+    name: /var/log/user-management-api/application.log
