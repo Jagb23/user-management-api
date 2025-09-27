@@ -1,0 +1,3 @@
+com/example/usermanagement/converter/JsonAttributeConverterTest.class
+com/example/usermanagement/entity/UserTest.class
+com/example/usermanagement/repository/UserRepositoryTest.class

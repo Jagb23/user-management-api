@@ -1,0 +1,5 @@
+com/example/usermanagement/repository/UserRepository.class
+com/example/usermanagement/converter/JsonAttributeConverter$1.class
+com/example/usermanagement/entity/User.class
+com/example/usermanagement/UserManagementApiApplication.class
+com/example/usermanagement/converter/JsonAttributeConverter.class
